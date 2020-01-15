@@ -7,13 +7,13 @@ import subprocess
 
 domain = 'collective.behavior.sdg'
 os.chdir(pkg_resources.resource_filename(domain, ''))
-os.chdir('../../../')
+os.chdir('../../../../')
 target_path = 'src/collective/behavior/sdg/'
 locale_path = target_path + 'locales/'
 i18ndude = './bin/i18ndude'
 
 # ignore node_modules files resulting in errors
-excludes = '"*.html *json-schema*.xml"'
+excludes = '"*.html *json-schema *.zcml"'
 
 
 def locale_folder_setup():
@@ -37,7 +37,7 @@ def locale_folder_setup():
                 shell=True,
             )
 
-    os.chdir('../../../../')
+    os.chdir('../../../../../')
 
 
 def _rebuild():
@@ -46,7 +46,7 @@ def _rebuild():
         locale_path=locale_path,
         domain=domain,
         target_path=target_path,
-        exclude=excludes
+        excludes=excludes
     )
     subprocess.call(
         cmd,
