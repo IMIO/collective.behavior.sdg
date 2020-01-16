@@ -23,7 +23,7 @@ class ISustainableDevelopmentGoals(model.Schema):
     sdgs = schema.List(
         title=_(u"SDG"),
         value_type=schema.Choice(
-            vocabulary=u"collective.behavior.sdg.SDGSVocabulary",
+            vocabulary=u"collective.behavior.sdg.SDGsVocabulary",
             required=True,
         ),
         required=False,
