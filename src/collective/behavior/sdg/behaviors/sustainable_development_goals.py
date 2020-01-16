@@ -4,7 +4,7 @@ from collective.behavior.sdg import _
 from plone import schema
 from plone.autoform.interfaces import IFormFieldProvider
 from plone.supermodel import model
-# from Products.CMFPlone.utils import safe_hasattr
+from Products.CMFPlone.utils import safe_hasattr
 from zope.component import adapter
 from zope.interface import Interface
 from zope.interface import implementer
@@ -36,12 +36,12 @@ class SustainableDevelopmentGoals(object):
     def __init__(self, context):
         self.context = context
 
-#    @property
-#    def sdgs(self):
-#        if safe_hasattr(self.context, 'sdgs'):
-#            return self.context.project
-#        return None
+    @property
+    def sdgs(self):
+        if safe_hasattr(self.context, 'sdgs'):
+            return self.context.sdgs
+        return None
 
-#    @sdgs.setter
-#    def sdgs(self, value):
-#        self.context.sdgs = value
+    @sdgs.setter
+    def sdgs(self, value):
+        self.context.sdgs = value
