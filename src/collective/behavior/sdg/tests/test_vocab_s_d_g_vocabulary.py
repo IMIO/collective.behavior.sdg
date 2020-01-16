@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from collective.behavior.sdg import _
 from collective.behavior.sdg.testing import COLLECTIVE_BEHAVIOR_SDG_INTEGRATION_TESTING  # noqa
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID

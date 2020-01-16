@@ -22,4 +22,5 @@ class SDGsVocabulary(object):
                                                                context=context.REQUEST)))
         return SimpleVocabulary(terms)
 
+
 SDGsVocabularyFactory = SDGsVocabulary()
