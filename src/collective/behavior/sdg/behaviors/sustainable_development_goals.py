@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from collective.behavior.sdg import _
+from collective.behavior.sdg.widgets.linked_checkbox import linked_checkbox_field_widget
 from plone import schema
+from plone.autoform import directives as form
 from plone.autoform.interfaces import IFormFieldProvider
 from plone.supermodel import model
 from Products.CMFPlone.utils import safe_hasattr
@@ -28,6 +30,8 @@ class ISustainableDevelopmentGoals(model.Schema):
         ),
         required=False,
     )
+
+    form.widget('sdgs', linked_checkbox_field_widget, links_record='collective.behavior.sdg.sdgs')
 
 
 @implementer(ISustainableDevelopmentGoals)
