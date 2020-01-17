@@ -75,7 +75,7 @@
     <a class="label"
        target="_blank"
        tal:content="item/label"
-       tal:attributes="href item/url">Label</a>
+       tal:attributes="href item/url; class python:'label sdg-{}'.format(item['value']) ">Label</a>
   </label>
  </span>
 </span>

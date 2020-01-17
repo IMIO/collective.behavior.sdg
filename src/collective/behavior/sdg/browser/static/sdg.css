@@ -1,0 +1,6 @@
+/* collective.behavior.sdg stylesheet */
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-01 {
+    background:url("++resource++collective.behavior.sdg/sdg-01-full.png") left/20px no-repeat;
+    padding-left: 22px;
+}

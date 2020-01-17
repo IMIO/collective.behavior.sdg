@@ -60,7 +60,7 @@ class LinkedCheckBoxWidget(CheckBoxWidget):
             title = term.value
             if ITitledTokenizedTerm.providedBy(term):
                 title = translate(term.title, context=self.request, default=term.title)
-            value.append({'term': title, 'url': urls.get(term.value).get('url')})
+            value.append({'term': title, 'url': urls.get(term.value).get('url'), 'class': 'sdg-{}'.format(token)})
         return value
 
 

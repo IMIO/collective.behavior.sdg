@@ -11,10 +11,8 @@
       layer="collective.behavior.sdg.interfaces.ICollectiveBehaviorSdgLayer"
       />
 
-  <!-- Publish static files -->
-  <plone:static
+  <browser:resourceDirectory
       name="collective.behavior.sdg"
-      type="plone"
       directory="static"
       />
 
