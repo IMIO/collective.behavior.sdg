@@ -1,6 +1,86 @@
 /* collective.behavior.sdg stylesheet */
 
 #form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-01 {
-    background:url("++resource++collective.behavior.sdg/sdg-01-full.png") left/20px no-repeat;
+    background:url("++resource++collective.behavior.sdg/sdg-01-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-02 {
+    background:url("++resource++collective.behavior.sdg/sdg-02-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-03 {
+    background:url("++resource++collective.behavior.sdg/sdg-03-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-04 {
+    background:url("++resource++collective.behavior.sdg/sdg-04-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-05 {
+    background:url("++resource++collective.behavior.sdg/sdg-05-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-06 {
+    background:url("++resource++collective.behavior.sdg/sdg-06-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-07 {
+    background:url("++resource++collective.behavior.sdg/sdg-07-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-08 {
+    background:url("++resource++collective.behavior.sdg/sdg-08-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-09 {
+    background:url("++resource++collective.behavior.sdg/sdg-09-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-10 {
+    background:url("++resource++collective.behavior.sdg/sdg-10-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-11 {
+    background:url("++resource++collective.behavior.sdg/sdg-11-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-12 {
+    background:url("++resource++collective.behavior.sdg/sdg-12-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-13 {
+    background:url("++resource++collective.behavior.sdg/sdg-13-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-14 {
+    background:url("++resource++collective.behavior.sdg/sdg-14-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-15 {
+    background:url("++resource++collective.behavior.sdg/sdg-15-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-16 {
+    background:url("++resource++collective.behavior.sdg/sdg-16-nb.svg") left/20px no-repeat;
+    padding-left: 22px;
+}
+
+#form-widgets-ISustainableDevelopmentGoals-sdgs a.sdg-17 {
+    background:url("++resource++collective.behavior.sdg/sdg-17-nb.svg") left/20px no-repeat;
     padding-left: 22px;
 }
