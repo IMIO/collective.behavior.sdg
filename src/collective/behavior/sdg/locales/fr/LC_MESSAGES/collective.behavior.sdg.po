@@ -40,7 +40,7 @@ msgstr "Eau propre et assainissement"
 
 #: collective/behavior/sdg/vocabularies/s_d_g_vocabulary.py
 msgid "07_title"
-msgstr "Énergie propre et d'un coût abordabledurable"
+msgstr "Énergie propre et d'un coût abordable"
 
 #: collective/behavior/sdg/vocabularies/s_d_g_vocabulary.py
 msgid "08_title"
