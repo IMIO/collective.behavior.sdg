@@ -15,6 +15,9 @@ class IndexerIntegrationTest(unittest.TestCase):
         self.portal = self.layer['portal']
         setRoles(self.portal, TEST_USER_ID, ['Manager'])
 
+    def test_sdgs_indexer(self):
+        pass
+
 
 class IndexerFunctionalTest(unittest.TestCase):
 
