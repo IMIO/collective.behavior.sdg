@@ -18,5 +18,7 @@
         marker=".sustainable_development_goals.ISustainableDevelopmentGoalsMarker"
         />
 
+    <!-- Marker interface definition = showed in zmi -->
+    <interface interface="collective.behavior.sdg.behaviors.sustainable_development_goals.ISustainableDevelopmentGoalsMarker" />
 
 </configure>
