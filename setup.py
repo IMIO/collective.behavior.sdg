@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.behavior.sdg',
-    version='1.0a1',
+    version='1.0a2.dev0',
     description="Dexterity behavior to add a selection field of nato sustainable development goals",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
